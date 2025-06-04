@@ -3,22 +3,26 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using EventTracker.Data;
 using EventTracker.Models;
+using EventTracker.Services;
 
 namespace EventTracker.Controllers;
 
 public class EventsController : Controller
 {
     private readonly EventContext _context;
+    private readonly TimeMessage _timeMessage;
 
-    public EventsController(EventContext context)
+    public EventsController(EventContext context, TimeMessage timeMessage)
     {
         _context = context;
+        _timeMessage = timeMessage;
     }
 
     // GET: Events (Tüm etkinlikleri listele)
     public IActionResult Index()
     {
         var eventList = _context.Events.ToList();
+        ViewBag.HumanizedMessage = _timeMessage.Message;
         return View(eventList);
     }
 

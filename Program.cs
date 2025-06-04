@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using EventTracker.Data;
+using Humanizer;
+using EventTracker.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,9 @@ builder.Services.AddControllersWithViews();
 
 //Add DbContext with SQLite
 builder.Services.AddDbContext<EventContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+var msg = DateTime.UtcNow.AddMinutes(-5).Humanize();
+builder.Services.AddSingleton(new TimeMessage(msg));
 
 var app = builder.Build();
 
