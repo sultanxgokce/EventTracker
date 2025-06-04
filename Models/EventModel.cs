@@ -14,6 +14,9 @@ public class EventModel
 
     public string? Description { get; set; }
 
+    [StringLength(200, ErrorMessage = "Adres 200 karakterden uzun olamaz")]
+    public string? Location { get; set; }
+
     [Required(ErrorMessage = "Etkinlik tarihi zorunludur.")]
     public DateTime Date { get; set; } // Etkinlik tarihi (ve saati)
 
