@@ -27,7 +27,10 @@
                 <td>@evt.Description</td>
                 <td>@evt.Date.ToString("g")</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@evt.Id" class="btn btn-info btn-sm"></a>
+                    @if (!evt.IsPast)
+                    {
+                        <a asp-action="Details" asp-route-id="@evt.Id" class="btn btn-info btn-sm">Katıl</a>
+                    }
                     <a asp-action="Edit" asp-route-id="@evt.Id" class="btn btn-primary btn-sm">Düzenle</a>
                     <a asp-action="Delete" asp-route-id="@evt.Id" class="btn btn-danger btn-sm"
                         onclick="return confirm('Bu etkinliği silmek istediğinize emin misiniz=');">Sil</a>

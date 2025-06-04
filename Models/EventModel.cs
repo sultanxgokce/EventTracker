@@ -20,5 +20,7 @@ public class EventModel
     [Required(ErrorMessage = "Etkinlik tarihi zorunludur.")]
     public DateTime Date { get; set; } // Etkinlik tarihi (ve saati)
 
+    public bool IsPast => Date < DateTime.Now;
+
 }
 
