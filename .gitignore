@@ -1,0 +1,19 @@
+# -------------------------
+# .NET / C# Temel Git Ignore Kuralları
+# -------------------------
+
+# Derleme çıktı klasörleri
+bin/
+obj/
+
+# VS Code kendi ayarları
+.vscode/
+
+# SQLite veritabanı dosyaları (yerel çalıştırmaya özel)
+EventTracker.db
+EventTracker.db-shm
+EventTracker.db-wal
+
+# Derleme sırasında oluşturulan geçici dosyalar (örnek proje içi static web assets vb.)
+*.staticwebassets.*
+*.sourcelink.json
