@@ -24,12 +24,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapStaticAssets();
-
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Events}/{action=Index}/{id?}")
-    .WithStaticAssets();
+    pattern: "{controller=Events}/{action=Index}/{id?}");
 
 
 app.Run();
