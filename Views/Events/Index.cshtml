@@ -3,6 +3,11 @@
     ViewData["Title"] = "Etkinlik Listesi";
 }
 
+@if (ViewBag.HumanizedMessage != null)
+{
+    <div class="alert alert-info">@ViewBag.HumanizedMessage</div>
+}
+
 <h2>Etkinlik Listesi</h2>
 
 <p>
