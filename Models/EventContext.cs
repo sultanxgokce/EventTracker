@@ -22,6 +22,7 @@ public class EventContext : DbContext
                 Id = 1,
                 Title = "Örnek Etkinlik 1",
                 Description = "ilk etkinlik için açıklama.",
+                Location = "Ankara, Türkiye",
                 Date = new System.DateTime(2025, 01, 15, 14, 00, 00)
             },
 
@@ -30,6 +31,7 @@ public class EventContext : DbContext
                 Id = 2,
                 Title = "Örnek Etkinlik 2",
                 Description = "ikinci etkinlik için açıklama.",
+                Location = "İstanbul, Türkiye",
                 Date = new System.DateTime(2025, 02, 20, 18, 30, 00)
             }
 
