@@ -1,0 +1,52 @@
+{
+  "is": "EventTracker-ci-ubicloud",
+  "arac": "kanit.py/0.10.0",
+  "guncelleme": "2026-11-10T10:44:22+03:00",
+  "kayitlar": [
+    {
+      "tur": "olcum",
+      "etiket": "ucretli-once",
+      "asama": "once",
+      "dosya": "olcum-ucretli-once-once.txt",
+      "sha256": "d93c241d100715eb69d3f367073d245ae8743ff7bfc993c885d713209303ca52",
+      "komut": [
+        "bash",
+        "/tmp/claude-1000/-config-projects-Nexus/6b97a4cc-dfd6-42fe-bdf4-cf1f9657563c/scratchpad/ucretli-say.sh",
+        "/tmp/claude-1000/-config-projects-Nexus/6b97a4cc-dfd6-42fe-bdf4-cf1f9657563c/scratchpad/EventTracker-eski"
+      ],
+      "rc": 1,
+      "renk": "kirmizi",
+      "zaman": "2026-11-10T10:44:22+03:00",
+      "sure_sn": 0.0,
+      "boru_denetimi": "kapsam-dışı (kabuk -c değil; dosya betiği içeriği denetlenmez)",
+      "girdi_anahtar": "b0432508663a8a41e857e51def6f588b79bf91d51e8cae76f4cda6454dba0c88",
+      "olcum_id": "d78303b632c34a43bfec9463996de4e5",
+      "olculen_commit": "7bef8e1e663baeb2f528621783e28db1dac8c5ca",
+      "olculen_kirli": false,
+      "kirli_kurali": 1
+    },
+    {
+      "tur": "olcum",
+      "etiket": "ucretli-sonra",
+      "asama": "sonra",
+      "dosya": "olcum-ucretli-sonra-sonra.txt",
+      "sha256": "9b7db591664982d51b07ef6522f509e43d1b88dd87550785900840e1e8b81254",
+      "komut": [
+        "bash",
+        "/tmp/claude-1000/-config-projects-Nexus/6b97a4cc-dfd6-42fe-bdf4-cf1f9657563c/scratchpad/ucretli-say.sh",
+        "."
+      ],
+      "rc": 0,
+      "renk": "yesil",
+      "zaman": "2026-11-10T10:44:22+03:00",
+      "sure_sn": 0.0,
+      "boru_denetimi": "kapsam-dışı (kabuk -c değil; dosya betiği içeriği denetlenmez)",
+      "girdi_anahtar": "988155b7ab4586215b4c60c841e8b622ae26ca79405d7ce03d5e65b8a589de2d",
+      "olcum_id": "bda801756ead41b79d65fc8869feeda5",
+      "olculen_commit": "7bef8e1e663baeb2f528621783e28db1dac8c5ca",
+      "olculen_kirli": false,
+      "kirli_kurali": 1
+    }
+  ],
+  "imza": "f537c4c2a1553496a682e7d9d4e69c4c68e84f3a28cb9e8ade4e85e518e1ce55"
+}
