@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-2   # MALİYET 10 Kas 2026 (Sultan kararı): ücretli GitHub makinesi bu depoda 0
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-dotnet@v3

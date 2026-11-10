@@ -1,0 +1,6 @@
+$ bash /tmp/claude-1000/-config-projects-Nexus/6b97a4cc-dfd6-42fe-bdf4-cf1f9657563c/scratchpad/canli-kosucu.sh sultanxgokce/EventTracker 8
+# rc=0 sure=1.5s zaman=2026-11-10T10:52:51+03:00
+--- stdout ---
+  is=build etiket=ubicloud-standard-2 kosucu=grsq0npbp2tp6qv9gxezhzr8dq sonuc=success
+pr=8 sha=79c1e913 is=1 ubicloud_is=1 ucretli_is=0 basarisiz=0 bitmemis=0
+--- stderr ---
