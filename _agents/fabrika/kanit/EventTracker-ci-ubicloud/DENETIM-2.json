@@ -1,0 +1,56 @@
+{
+  "tur": 2,
+  "is": "EventTracker-ci-ubicloud",
+  "pr": "8",
+  "yazan": "claude",
+  "denetci": "codex",
+  "zaman": "2026-11-10T10:59:21+03:00",
+  "kanit_durumu": "sağlam (araç imzalı, sha'lar tutuyor)",
+  "depo": "/config/projects/_wt/EventTracker-EventTracker-ci-ubicloud",
+  "dal": "EventTracker-ci-ubicloud",
+  "birincil_mi": true,
+  "yedek": null,
+  "yazan_model": "opus",
+  "yazan_model_kaynak": "ayar-dosyasi",
+  "yedek_model": null,
+  "kirpildi": {
+    "oldu": false,
+    "istem_bayt": 15537,
+    "esik": 110000
+  },
+  "kanit_ayiklandi": {
+    "dosya": 2,
+    "bayt": 3567
+  },
+  "dalgic": "uyumsuz",
+  "on_goz": {
+    "durum": "uyumsuz",
+    "dalgic": "uyumsuz",
+    "kanit_basi": "uyumsuz",
+    "kanit_eksik": "uyumlu",
+    "taban": "uyumlu",
+    "agac": "uyumlu",
+    "kapsam_dosya": "uyumlu",
+    "gecis_gerekcesi": null,
+    "zorunlu": "kapali",
+    "notlar": [
+      "A1 kanıt başı: 'ucretli-sonra' (sonra) 7bef8e1e'de ölçülmüş, HEAD e191371c; arada kanıt dışı 2 dosya (_agents/fabrika/karne.jsonl, _agents/fabrika/kartlar/EventTracker-ci-ubicloud.json) — kanıtı HEAD'de yeniden al",
+      "A1 kanıt başı: 'canli-kosucu' (sonra) 79c1e913'de ölçülmüş, HEAD e191371c; arada kanıt dışı 2 dosya (_agents/fabrika/karne.jsonl, _agents/fabrika/kartlar/EventTracker-ci-ubicloud.json) — kanıtı HEAD'de yeniden al"
+    ]
+  },
+  "bas": "e191371cb5677de7e9cc257b8b777268ea64cb54",
+  "duzeltme_farki": {
+    "onceki_bas": "3f5d0820ef4bc6af7cb903699d7b5cb6829ff91c",
+    "dosya": 4,
+    "bayt": 5457,
+    "tam_bayt": 11791
+  },
+  "kareler": null,
+  "sonuc": {
+    "kod_puani": 5,
+    "dogru_sey": "E",
+    "ozet": "Sultan, tek CI işi ücretli GitHub koşucusundan `ubicloud-standard-2`ye taşınmış; ölçümler ücretli/Ubicloud satırlarını 1→0 ve 0→1, PR 8 kaydı da `grsq0npbp2tp6qv9gxezhzr8dq` koşucusunda başarılı çalışmayı gösteriyor. Önceki turda kapatılacak bulgu yoktu; bu turdaki yalnız denetim ve iş kartı kayıtları üretim davranışını değiştirmediğinden iş üretime hazır.",
+    "bulgular": [],
+    "kanit_gorusu": "Araç imzalı manifest sağlam, sarı kayıt yok ve önce/sonra ölçüm çifti mevcut. Ölçümler baştan iki dosya geride olsa da gösterilen ara fark yalnız fabrika denetim/iş kartı kayıtlarından oluşuyor ve CI üretim kodunu değiştirmiyor; bu nedenle ücretli koşucunun kaldırılması ile PR işinin `ubicloud-standard-2` ve `gr...` adlı koşucuda çalışması güncel talebi yeterince kanıtlıyor."
+  }
+}
